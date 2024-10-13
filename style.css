@@ -19,7 +19,7 @@ h1 {
     font-style: normal;
 
     font-size: 1.6rem;
-    color: rgb(47, 0, 85);
+    color: rgba(47, 0, 85, 0.15);
 
 }
 h2 {
@@ -46,12 +46,14 @@ h4 {
     margin: 0;
     font-style: small-caps;
 }
-
+.separator{
+    color: #E5E7EB;
+}
 .industryType {
     font-variant: small-caps;
 }
 
-.industryApp {
+.subTitle {
     font-variant: small-caps;
 }
 
@@ -62,7 +64,10 @@ div {
     flex-direction: column;
     gap: 0.4rem;
 }
-
+.flexing{
+    display: flex;
+    flex-direction: row;
+}
 
 .keyProduct{
     color: rgb(255, 255, 255);
@@ -98,6 +103,7 @@ p{
     flex-flow: wrap;
     gap: 0.5rem;
     justify-content: flex-start;
+    padding: 1rem;
 
     
 }
@@ -110,5 +116,16 @@ li{
     
 }
 .extraSpace {
-    padding: 1rem;
+    
+}
+.jobDescription{
+    
+    
+    border-width: 0.2rem;
+    border-left: 4px solid black;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    
+    
+    padding: 2rem;
 }
