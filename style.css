@@ -105,7 +105,6 @@ p{
     justify-content: flex-start;
     padding: 1rem;
 
-    
 }
 
 li{
@@ -116,7 +115,7 @@ li{
     
 }
 .extraSpace {
-    
+    color:red;
 }
 .jobDescription{
     
