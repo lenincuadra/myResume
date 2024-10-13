@@ -8,6 +8,20 @@ body{
  background-color: rgb(250, 250, 250);
  padding: 2rem 2rem;
 }
+h1 {
+    font-family: inter;
+    font-style: bold;
+    font-size: 2rem;
+    color: indigo;
+    margin:0;
+}
+.translated {
+    font-style: normal;
+
+    font-size: 1.6rem;
+    color: rgb(47, 0, 85);
+
+}
 h2 {
     font-family: inter;
     font-style: normal;
