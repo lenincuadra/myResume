@@ -26,3 +26,4 @@
 ## References files
 - [Markdowns on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Git Course - Linkedin](https://www.linkedin.com/learning/git-essential-training-19417064/make-use-of-the-gui-of-visual-studio-code?autoSkip=true&resume=false)
+- [How to Host a Website On Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4&ab_channel=KennyYipCoding)
