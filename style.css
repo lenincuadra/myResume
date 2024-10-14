@@ -104,7 +104,6 @@ p{
     gap: 0.5rem;
     justify-content: flex-start;
     padding: 1rem;
-
 }
 
 li{
@@ -114,9 +113,7 @@ li{
     list-style: disc;
     
 }
-.extraSpace {
-    color:red;
-}
+
 .jobDescription{
     
     
