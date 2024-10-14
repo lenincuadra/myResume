@@ -18,7 +18,8 @@
    - el 5500, significa que es el servidor, concepto medio-confuso porque como es que tu propia compu es tu propio servidor?
      - Local: http://localhost:5500
      - Network: http://132.158.100.124:5500
-  - Mantente Commit-eando. Es tan evidente desde ahora que los commits son parte del dia a dia, pero al mismo tiempo, lo complejo que es en comparacion a darle ctrl+S y guardar tus cambios, tiene esa misma importancia, pero no esta ni cerca de tener la misma dinamica, la diferencia de dificultad es increible: 1 es dibujar una linea en una hoja blanca y el otro es dibujar un mural entero CADA VEZ que quieras guardar tus cambios. Mantenerte commiteando no porque te importe mucho guardar, sino porque es algo que debe ser parte de tu flujo de trabajo y no deberia ser un bloqueante guardar tu data -Obvio estoy commiteando esto ahora desde GitHub-
+
+- Mantente Commit-eando. Es tan evidente desde ahora que los commits son parte del dia a dia, pero al mismo tiempo, lo complejo que es en comparacion a darle ctrl+S y guardar tus cambios, tiene esa misma importancia, pero no esta ni cerca de tener la misma dinamica, la diferencia de dificultad es increible: 1 es dibujar una linea en una hoja blanca y el otro es dibujar un mural entero CADA VEZ que quieras guardar tus cambios. Mantenerte commiteando no porque te importe mucho guardar, sino porque es algo que debe ser parte de tu flujo de trabajo y no deberia ser un bloqueante guardar tu data -Obvio estoy commiteando esto ahora desde GitHub-
 
 ## Tools
 
@@ -33,3 +34,5 @@
 - [Markdowns on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Git Course - Linkedin](https://www.linkedin.com/learning/git-essential-training-19417064/make-use-of-the-gui-of-visual-studio-code?autoSkip=true&resume=false)
 - [How to Host a Website On Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4&ab_channel=KennyYipCoding)
+
+[[https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
