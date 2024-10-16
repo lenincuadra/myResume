@@ -24,6 +24,8 @@
 
 - Mantente Commit-eando. Es tan evidente desde ahora que los commits son parte del dia a dia, pero al mismo tiempo, lo complejo que es en comparacion a darle ctrl+S y guardar tus cambios, tiene esa misma importancia, pero no esta ni cerca de tener la misma dinamica, la diferencia de dificultad es increible: 1 es dibujar una linea en una hoja blanca y el otro es dibujar un mural entero CADA VEZ que quieras guardar tus cambios. Mantenerte commiteando no porque te importe mucho guardar, sino porque es algo que debe ser parte de tu flujo de trabajo y no deberia ser un bloqueante guardar tu data -Obvio estoy commiteando esto ahora desde GitHub-
 
+5. date_Oct-15-Tue-2024 - Instalar un plugin aunque parezca tonto gastar 1hora, puede ser bastante necesario en el futuro, instale Prettier para mantener el codigo consistente y algo como Googlear y leer por 2 minutos puede resolverlo.
+
 ## Tools
 
 1. Git
@@ -31,6 +33,8 @@
 3. css
 4. Terminal (VsCode)
 5. ChatGPT
+6. Prettier
+7. ESLint
 
 ## References files
 
