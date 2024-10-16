@@ -26,6 +26,8 @@
 
 5. date_Oct-15-Tue-2024 - Instalar un plugin aunque parezca tonto gastar 1hora, puede ser bastante necesario en el futuro, instale Prettier para mantener el codigo consistente y algo como Googlear y leer por 2 minutos puede resolverlo.
 
+- Yes! Mi codigo a partir de ahora luce Prettier, jaja.
+
 ## Tools
 
 1. Git
