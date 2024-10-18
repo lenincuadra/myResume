@@ -28,6 +28,8 @@
 
 - Yes! Mi codigo a partir de ahora luce Prettier, jaja.
 
+6. date_Oct-17-Thu-2024 - Aprendiendo JS: utilizando la consola del navegador para actualizar un objeto.
+
 ## Tools
 
 1. Git
