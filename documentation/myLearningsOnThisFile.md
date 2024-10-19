@@ -29,6 +29,7 @@
 - Yes! Mi codigo a partir de ahora luce Prettier, jaja.
 
 6. date_Oct-17-Thu-2024 - Aprendiendo JS: utilizando la consola del navegador para actualizar un objeto.
+7. date_Oct-18-Fri-2024 – Practicando crear un Object en js.
 
 ## Tools
 
