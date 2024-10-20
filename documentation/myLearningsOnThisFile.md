@@ -30,6 +30,10 @@
 
 6. date_Oct-17-Thu-2024 - Aprendiendo JS: utilizando la consola del navegador para actualizar un objeto.
 7. date_Oct-18-Fri-2024 – Practicando crear un Object en js.
+8. date_Oct-20-Sun-2024 - Commitear ya se ha vuelto natural para mi, lo entiendo perfectamente y hasta ahora, no ha habido ningun problema, me siento comodo y sale fluido.
+
+- Entender como hacer colecciones es un poco dificil, mi mejor solución fué poder renombrarlas de una forma que yo supiera que es una colección "collectionOfLi" fué el nombre que terminó de definir mi primera aplicación creada.
+- _Lenin's Quote: 'a missing "" can break anything, even your confidence in your code'_
 
 ## Tools
 
@@ -40,6 +44,7 @@
 5. ChatGPT
 6. Prettier
 7. ESLint
+8. Mimo
 
 ## References files
 
@@ -48,3 +53,5 @@
 - [How to Host a Website On Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4&ab_channel=KennyYipCoding)
 
 [[https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
+
+- [https://mimo.org/](https://mimo.org/)
