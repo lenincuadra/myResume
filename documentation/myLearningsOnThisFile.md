@@ -34,6 +34,7 @@
 
 - Entender como hacer colecciones es un poco dificil, mi mejor solución fué poder renombrarlas de una forma que yo supiera que es una colección "collectionOfLi" fué el nombre que terminó de definir mi primera aplicación creada.
 - _Lenin's Quote: 'a missing "" can break anything, even your confidence in your code'_
+- Console.Log es la herramienta perfecta para resolver los problemas en JS.
 
 ## Tools
 
