@@ -36,6 +36,8 @@
 - _Lenin's Quote: 'a missing "" can break anything, even your confidence in your code'_
 - Console.Log es la herramienta perfecta para resolver los problemas en JS.
 
+9. date_Oct-22-Tue-2024 - Saber identificar una clase, de un ID es fundamental al momento de querer manejar el DOM.
+
 ## Tools
 
 1. Git
