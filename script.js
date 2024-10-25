@@ -1,14 +1,12 @@
 function countingProd() {
   // Cambia "tags" por la etiqueta real que quieres seleccionar
-  const collectionAmount = document.querySelectorAll(
-    "jobDescription" && "#type"
-  );
+  const collectionAmount = document.querySelectorAll(".keyProduct");
   const changeText = document.getElementById("changeId");
 
   // Verifica si la colección tiene exactamente un elemento
   if (collectionAmount.length === 0) {
     console.log(`Found 0: ${collectionAmount.length} elements.`);
-  } else if ((collectionAmount.length = 1)) {
+  } else if (collectionAmount.length === 1) {
     changeText.innerText = "KEY DESIGNED PRODUCT"; // Modifica el texto o haz lo que necesites
     console.log(`Found 1: ${collectionAmount.length} elements.`);
   } else if (collectionAmount.length > 1) {

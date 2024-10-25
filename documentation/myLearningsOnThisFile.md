@@ -37,6 +37,8 @@
 - Console.Log es la herramienta perfecta para resolver los problemas en JS.
 
 9. date_Oct-22-Tue-2024 - Saber identificar una clase, de un ID es fundamental al momento de querer manejar el DOM.
+10. date_Oct-24-Thu-2024 - Failed to Deliver yesterday, so many appointments
+11. date_Oct-24-Thu-2024 - "=" is not the same as "===" I had the ability to spot that and solve the bug by mylself.
 
 ## Tools
 
