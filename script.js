@@ -1,23 +1,28 @@
-function countingProd() {
-  // Cambia "tags" por la etiqueta real que quieres seleccionar
-  const collectionAmount = document.querySelectorAll(".keyProduct");
-  const changeText = document.getElementById("changeId");
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log("DOM fully loaded and parsed");
 
-  // Verifica si la colección tiene exactamente un elemento
-  if (collectionAmount.length === 0) {
-    console.log(`Found 0: ${collectionAmount.length} elements.`);
-  } else if (collectionAmount.length === 1) {
-    changeText.innerText = "KEY DESIGNED PRODUCT"; // Modifica el texto o haz lo que necesites
-    console.log(`Found 1: ${collectionAmount.length} elements.`);
-  } else if (collectionAmount.length > 1) {
-    console.log(`Found +1: ${collectionAmount.length} elements.`);
-    changeText.innerText = "KEY DESIGNED PRODUCTS"; // Modifica el texto o haz lo que necesites
+  function countingProd() {
+    // Cambia "tags" por la etiqueta real que quieres seleccionar
+    const collectionAmount = document.querySelectorAll(".keyProduct");
+    const changeText = document.getElementById("changeId");
+
+    // Verifica si la colección tiene exactamente un elemento
+    if (collectionAmount.length === 0) {
+      console.log(`Found 0: ${collectionAmount.length} elements.`);
+    } else if (collectionAmount.length === 1) {
+      changeText.innerText = "KEY DESIGNED PRODUCT"; // Modifica el texto o haz lo que necesites
+      console.log(`Found 1: ${collectionAmount.length} elements.`);
+    } else if (collectionAmount.length > 1) {
+      console.log(`Found +1: ${collectionAmount.length} elements.`);
+      changeText.innerText = "KEY DESIGNED PRODUCTS"; // Modifica el texto o haz lo que necesites
+    }
   }
-  // Opcional: verifica si el elemento con id 'changeId' existe antes de usarlo
-  //   if (changeText) {
-  //     changeText.innerText = "Updated text"; // Modifica el texto o haz lo que necesites
-  //   }
-}
+  countingProd();
+});
+// Opcional: verifica si el elemento con id 'changeId' existe antes de usarlo
+//   if (changeText) {
+//     changeText.innerText = "Updated text"; // Modifica el texto o haz lo que necesites
+//   }
 
 // -----
 // function countingProd() {

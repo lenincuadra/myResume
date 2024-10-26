@@ -39,6 +39,7 @@
 9. date_Oct-22-Tue-2024 - Saber identificar una clase, de un ID es fundamental al momento de querer manejar el DOM.
 10. date_Oct-24-Thu-2024 - Failed to Deliver yesterday, so many appointments
 11. date_Oct-24-Thu-2024 - "=" is not the same as "===" I had the ability to spot that and solve the bug by mylself.
+12. date_Oct-25-Fri-2024 - Uff! que buen curso para volver a ver cuando hace falta el de GIT, no tenia forma facil de volver y hoy use mi primer: "Git Restore" y funcion como magia.
 
 ## Tools
 
