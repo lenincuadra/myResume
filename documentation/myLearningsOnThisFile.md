@@ -40,6 +40,8 @@
 10. date_Oct-24-Thu-2024 - Failed to Deliver yesterday, so many appointments
 11. date_Oct-24-Thu-2024 - "=" is not the same as "===" I had the ability to spot that and solve the bug by mylself.
 12. date_Oct-25-Fri-2024 - Uff! que buen curso para volver a ver cuando hace falta el de GIT, no tenia forma facil de volver y hoy use mi primer: "Git Restore" y funcion como magia.
+13. date_Oct-26-Sat-2024 - Incredible Crash Course for CSS, a lot of stuff I don't knew it even stuff that I should knew as a Designer.
+14. My first Refactor on CSS, is not being hard but you have to be aware of so many stuffs, Display: Flex is incredible complex and powerful at the same time obviously is a must-have to learn.
 
 ## Tools
 
@@ -61,3 +63,9 @@
 [[https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
 
 - [https://mimo.org/](https://mimo.org/)
+
+- [Learn CSS in 20 Minutes](https://www.youtube.com/watch?v=1PnVor36_40&t=25s&ab_channel=WebDevSimplified)
+
+- [Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE&list=PLZlA0Gpn_vH9D0J0Mtp6lIiD_8046k3si&index=8&ab_channel=WebDevSimplified)
+
+- [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE&list=PLZlA0Gpn_vH9D0J0Mtp6lIiD_8046k3si&index=8&ab_channel=WebDevSimplified)
