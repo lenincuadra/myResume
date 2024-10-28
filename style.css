@@ -4,8 +4,8 @@
   font-family: inter;
   margin: 0;
   padding: 0;
-
-  /* box-sizing: border-box; Asegura que el ancho y alto incluya el padding y border */
+  /* Asegura que el ancho y alto incluya el padding y border */
+  box-sizing: border-box;
 }
 
 /* Body selector */
@@ -15,6 +15,7 @@ body {
   /* background-color: #1f1f1f;
   background-color: #515151; */
 }
+
 /* Use it as a tool to map the box model */
 .ruler-p {
   /* Padding Rule */
@@ -91,20 +92,16 @@ div {
   flex-direction: column;
   gap: 0.4rem;
 }
-.flexing {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
 
 .keyProduct {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   padding: 0.1rem 0.2rem 0;
   border-radius: 0.25rem;
-  font-variant: small-caps;
+  font-variant: uppercase;
   font-size: 0.7rem;
   font-weight: bold;
+  padding: 0.25rem;
 }
 .tags {
   color: rgb(240, 240, 240);
@@ -125,17 +122,28 @@ p {
 
 .space {
   display: flex;
-  flex-flow: wrap;
   align-items: center;
   gap: 0.5rem;
   justify-content: flex-start;
-  padding: 1rem 1rem 1rem 0;
+  padding: 1rem 0 1rem 0;
+  line-height: 1;
+}
+.flexing {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
+ul {
+  padding-left: 1rem; /* Ajusta este valor según sea necesario */
+  list-style-position: inside; /* Opcional: mueve las viñetas dentro del área de contenido del contenedor */
+}
 li {
-  padding: 0.3rem 0;
+  padding: 0.5rem 0 0.5rem 0.3rem;
   font-size: 1rem;
-  list-style: none;
+  list-style: disc;
 }
 
 .jobDescription {
@@ -266,8 +274,4 @@ li {
 
 gap {
   gap: 1rem;
-}
-
-div > h4.keyProduct {
-  flex-direction: row;
 }
