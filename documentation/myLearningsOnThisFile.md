@@ -42,6 +42,12 @@
 12. date_Oct-25-Fri-2024 - Uff! que buen curso para volver a ver cuando hace falta el de GIT, no tenia forma facil de volver y hoy use mi primer: "Git Restore" y funcion como magia.
 13. date_Oct-26-Sat-2024 - Incredible Crash Course for CSS, a lot of stuff I don't knew it even stuff that I should knew as a Designer.
 14. My first Refactor on CSS, is not being hard but you have to be aware of so many stuffs, Display: Flex is incredible complex and powerful at the same time obviously is a must-have to learn.
+15. date_Oct-27-Sun-2024 - Refactor dia - me hace falta comprender como funciona bien la estructura en CSS
+16. date_Oct-28-Mon-2024 - Dia de Aprender BEM: Vi un par de videos de BEM, 1 explico todo muy bien y otro demasiado complejo, pero me quedo un 80/20 entre ambos.
+
+- BEM no es un lenguaje, es mas bien una metodologia de escribir codigo. Imaginemos que existe un tipo llamado "Bem". Bem, es muy organizado, sabe escribir codigo de forma que cualquiera lo pueda entender y actualizar y lo hace de una manera simple para el mismo. Lo importante de todo esto, es que si todos escribiemos como "Bem" no solo vamos a tener un codigo mas limpio, sino que tambien va a ser muy escalable ya que cualquiera va a poder entenderlo si esta estandarizado "a lo Bem"
+- Otra cosa que aprendi sobre Bem, es que se siente bastante como funciona un componente dentro de un componente en Figma, podria estar equivovado, pero hay algun paralelismo ahi. Tips sobre BEM: no agregues Margin en componentes por si solo, es mejor controlar el padding de componente con el contenedor que lo vaya a rodear.
+- El Video de BEM esta bueno para principiantes haciendo una Card que es un elemento bastante comun en Diseno y la vez bastante complejo, voy a hacerlo posiblemente manana.
 
 ## Tools
 
@@ -69,3 +75,7 @@
 - [Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE&list=PLZlA0Gpn_vH9D0J0Mtp6lIiD_8046k3si&index=8&ab_channel=WebDevSimplified)
 
 - [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE&list=PLZlA0Gpn_vH9D0J0Mtp6lIiD_8046k3si&index=8&ab_channel=WebDevSimplified)
+
+- [Learn CSS BEM (and avoid these common mistakes)](https://www.youtube.com/watch?v=YktyUS1Aeo0)
+
+- [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?v=er1JEDuPbZQ&t)
