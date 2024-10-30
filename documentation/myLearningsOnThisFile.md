@@ -49,6 +49,10 @@
 - Otra cosa que aprendi sobre Bem, es que se siente bastante como funciona un componente dentro de un componente en Figma, podria estar equivovado, pero hay algun paralelismo ahi. Tips sobre BEM: no agregues Margin en componentes por si solo, es mejor controlar el padding de componente con el contenedor que lo vaya a rodear.
 - El Video de BEM esta bueno para principiantes haciendo una Card que es un elemento bastante comun en Diseno y la vez bastante complejo, voy a hacerlo posiblemente manana.
 
+17. date_Oct-29-Tue-2024 - Muy buenos tips del video para CSS, esta para verlo cada cierto tiempo y recordar de usar esos tips (10 CSS Pro Tips - Code this, NOT that!)
+
+18. Tools Vs Materials: Learn Materials of how the web is built it, when you have a problem, pick and learn the Tool you need for theyou have.
+
 ## Tools
 
 1. Git
@@ -79,3 +83,7 @@
 - [Learn CSS BEM (and avoid these common mistakes)](https://www.youtube.com/watch?v=YktyUS1Aeo0)
 
 - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?v=er1JEDuPbZQ&t)
+
+- [10 CSS Pro Tips - Code this, NOT that!](https://www.youtube.com/watch?v=Qhaz36TZG5Y)
+
+- [Jen Simmons - What if CSS Grid Changes?](https://www.youtube.com/watch?v=nCDWzV9wzW4)
