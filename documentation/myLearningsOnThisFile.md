@@ -53,6 +53,8 @@
 
 18. Tools Vs Materials: Learn Materials of how the web is built it, when you have a problem, pick and learn the Tool you need for theyou have.
 
+19. Applying BEM to my code from Scratch!
+
 ## Tools
 
 1. Git
