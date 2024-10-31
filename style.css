@@ -1,6 +1,15 @@
+/* Tokens  */
+:root {
+  --lk-color-primary: indigo;
+  --lk-color-secondary: #2ecc71;
+  --lk-color-accent-purple: var(
+    --lk-color-primary
+  ); /* Toma el valor de primary */
+}
+
 /* Global selectors */
 * {
-  background-color: rgba(250, 250, 250, 0.806);
+  background-color: none;
   font-family: inter;
   margin: 0;
   padding: 0;
@@ -33,17 +42,28 @@ body {
 
 /**/
 
-a {
+/**/
+
+/**/
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+}
+/**/
+
+/**/
+/*
+{
   color: indigo;
 
   /* text-decoration: 0.15rem underline;
   text-underline-offset: 0.4rem; */
-}
 
 h1 {
   font-style: bold;
   font-size: 2rem;
-  color: indigo;
+  color: var(--lk-color-accent-purple);
   margin: 0;
 }
 .translated {
@@ -55,7 +75,7 @@ h1 {
 h2 {
   font-style: normal;
   font-size: 1.5rem;
-  color: indigo;
+  color: var(--lk-color-accent-purple);
   margin: 0;
 }
 
