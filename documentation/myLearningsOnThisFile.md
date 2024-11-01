@@ -55,6 +55,8 @@
 
 19. Applying BEM to my code from Scratch!
 
+20. MY 1st refactor, BEM Refactor FTW WIP!
+
 ## Tools
 
 1. Git
