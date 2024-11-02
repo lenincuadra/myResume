@@ -57,6 +57,8 @@
 
 20. MY 1st refactor, BEM Refactor FTW WIP!
 
+21. Going on the BEM Route, understanding the basic of it!
+
 ## Tools
 
 1. Git
@@ -91,3 +93,5 @@
 - [10 CSS Pro Tips - Code this, NOT that!](https://www.youtube.com/watch?v=Qhaz36TZG5Y)
 
 - [Jen Simmons - What if CSS Grid Changes?](https://www.youtube.com/watch?v=nCDWzV9wzW4)
+
+- [BEM 101: How to Make Web Design Organized & Scalable](https://www.youtube.com/watch?v=tha_ynmZRaA)
