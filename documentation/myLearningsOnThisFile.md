@@ -59,6 +59,8 @@
 
 21. Going on the BEM Route, understanding the basic of it!
 
+22. Learning flexbox, but it's not the time, I'm back to focus on BEM, I think need to understand how to make css classes in a scalable way, then, I'll be back to structure the UI.
+
 ## Tools
 
 1. Git
@@ -95,3 +97,5 @@
 - [Jen Simmons - What if CSS Grid Changes?](https://www.youtube.com/watch?v=nCDWzV9wzW4)
 
 - [BEM 101: How to Make Web Design Organized & Scalable](https://www.youtube.com/watch?v=tha_ynmZRaA)
+
+- [Learn CSS Flexbox in 20 Minutes (Course)](https://www.youtube.com/watch?v=wsTv9y931o8)

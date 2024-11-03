@@ -23,6 +23,19 @@ body {
   /* background-color: #515151; */
 }
 
+.card-experience {
+  &__header {
+    background-color: red;
+  }
+  &__title {
+    background-color: red;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--lk-color-accent-purple);
+    margin: 0;
+  }
+}
+
 /* Use it as a tool to map the box model */
 .ruler-p {
   /* Padding Rule */
@@ -36,23 +49,4 @@ body {
   );
   background-size: 10px 10px;
   background-origin: padding-box; /* Aplica el fondo solo desde el borde del padding */
-}
-
-/**/
-
-/**/
-
-/**/
-
-.card {
-  &__header {
-    background-color: red;
-  }
-  &__title {
-    background-color: red;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: var(--lk-color-accent-purple);
-    margin: 0;
-  }
 }
