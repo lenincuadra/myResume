@@ -1,46 +1,92 @@
-Tokens :root {
-  --lk-color-primary: indigo;
-  --lk-color-secondary: #2ecc71;
-  --lk-color-accent-purple: var(--lk-color-primary);
-}
-/* Toma el valor de primary 
-
-
-/* Global selectors */
-* {
-  background-color: none;
-  font-family: inter;
-  margin: 0;
-  padding: 0;
-  /* Asegura que el ancho y alto incluya el padding y border */
-}
-
-/* Body selector */
+/* HTML */
 body {
-  padding: 3.5rem 3.5rem;
-  /* Preservar para colores de bg/surface mas adelante */
-  /* background-color: #1f1f 1f; */
-  /* background-color: #515151; */
+  padding: var(--lk-spacing-56px) var(--lk-spacing-56px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
 }
 
-.card-experience {
-  &__header {
-    background-color: red;
-  }
-  &__title {
-    background-color: red;
-    font-style: normal;
-    font-size: 1.5rem;
-    color: var(--lk-color-accent-purple);
-    margin: 0;
-  }
+li {
+  padding: var(--lk-spacing-8px) var(--lk-spacing-0px);
 }
 
+/* CARD - JOB EXPERIENCE */
+.card-exp {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lk-spacing-4px);
+  padding: var(--lk-spacing-24px) var(--lk-spacing-24px) var(--lk-spacing-24px)
+    var(--lk-spacing-24px);
+  background-color: var(--lk-color-surface-1);
+  border-radius: var(--lk-spacing-8px);
+
+  /* REMINDER: I have 2 borders because I dont know how to add just the left padding */
+  border: 0;
+  border-left: var(--lk-spacing-4px);
+  border-style: solid;
+}
+
+/* TITLE ROLE */
+.card-exp__header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--lk-spacing-8px) var(--lk-spacing-8px);
+}
+
+.card-exp__business-tag {
+  background-color: var(--lk-color-accent-purple);
+  border-radius: var(--lk-spacing-4px);
+  padding: var(--lk-spacing-2px) var(--lk-spacing-4px);
+}
+
+.card-exp__prod-keywords-wrapper {
+  display: flex;
+  gap: var(--lk-spacing-8px);
+}
+
+.card-exp__prod-keywords {
+  font-variant-caps: all-small-caps;
+  text-decoration-line: underline;
+  text-underline-offset: var(--lk-spacing-4px);
+}
+
+.card-exp__role {
+  /* background-color: var(--lk-color-secondary); */
+  flex-grow: 1;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: var(--lk-color-accent-purple);
+  margin: 0;
+}
+
+/* COMPANY INFO */
+.card-exp__company-industry {
+  flex-grow: 1;
+  font-variant-caps: all-small-caps;
+}
+
+.card-exp__company-starting-date {
+  font-variant-caps: all-small-caps;
+}
+
+.card-exp__company-ending-date {
+  text-underline-offset: var(--lk-spacing-4px);
+  text-decoration: underline;
+}
+
+.card-exp__company-separator {
+  padding: 0 var(--lk-spacing-4px);
+}
+
+.card-exp__industry-and-duration-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/*  */
+/*  */
 /* Use it as a tool to map the box model */
 .ruler-p {
-  /* Padding Rule */
   border: purple;
-
   background-color: rgba(255, 0, 0, 0.079);
   background-image: radial-gradient(
     circle,

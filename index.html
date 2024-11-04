@@ -4,6 +4,7 @@
     <title>v.2 - (css)Lenin Cuadra - Resume</title>
     <script src="script.js"></script>
     <link href="style.css" rel="stylesheet" />
+    <link href="lenk__design-system.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,25 +27,47 @@
       <br />
       <br />
       <!-- BEM-ming here! -->
-      <div class="card-experience">
-        <div class="card__header">
-          <h2 class="cardrole">Product Designer</h2>
-          <span class="card__tag__company-size">B2B</span>
-          <span class="card__company-size">CORPORATION</span>
+      <div class="card-exp">
+        <div class="card-exp__header-wrapper">
+          <h2 class="card-exp__role">Product Designer</h2>
+          <span class="card-exp__business-tag card-exp__business-model">
+            B2B
+          </span>
+          <span class="card-exp__business-tag card-exp__company-size">
+            Corporation
+          </span>
         </div>
-        <h3 class="card__subtitle">at PSH - @Follett</h3>
-        <h3 class="card__subtitle">Edutech</h3>
-        <h4 class="card__industry"></h4>
-        <h4 class="card__key-products__type"></h4>
-        <p class="card__desc"></p>
-        <ul>
-          <li class="card__bullets card__bullets--highlighted"></li>
-          <li class="card__bullets"></li>
-          <li class="card__bullets"></li>
+
+        <h3 class="card-exp__company-name">at PSH - @Follett</h3>
+        <div class="card-exp__industry-and-duration-wrapper">
+          <h3 class="card-exp__company-industry">Edutech</h3>
+          <span class="card-exp__company-starting-date">mar/2024</span>
+          <span class="card-exp__company-separator">|</span>
+          <span class="card-exp__company-ending-date">Present</span>
+        </div>
+        <div class="card-exp__prod-keywords-wrapper">
+          <h4 class="card-exp__prod-keywords">Key Designed Products</h4>
+          <h4 class="card-exp__prod-built">SaaS</h4>
+        </div>
+
+        <p class="card-exp__summary">
+          Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph
+          Paragraph Paragraph Paragraph Paragraph Paragraph
+        </p>
+
+        <ul class="card-exp__responsabilities__wrapper">
+          <li class="card-exp__responsabilities">List item #1</li>
+          <li class="card-exp__responsabilities">List item #2</li>
+          <li class="card-exp__responsabilities">List item #3</li>
         </ul>
+
+        <div class="card-exp__keywords_wrapper">
+          <span class="card-exp__keyword">Tags #1</span>
+          <span class="card-exp__keyword">Tags #2</span>
+          <span class="card-exp__keyword">Tags #3</span>
+        </div>
       </div>
     </div>
-    <span class="card__tags__keywords">Tags</span>
   </body>
 </html>
 

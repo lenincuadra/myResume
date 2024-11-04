@@ -1,0 +1,44 @@
+/* Tokens */
+
+:root {
+  /* PRIMARY Color --- Used to hightlight thinks */
+  --lk-color-primary-500: #5b21b6;
+  --lk-color-primary-100: #ede9fe;
+
+  /* SECONDARY Color --- Used to hightlight thinks */
+  --lk-color-secondary-500: #2ecc71;
+
+  /* NEUTRAL Color --- Used to hightlight thinks */
+  --lk-color-neutral: rgb(250, 250, 250);
+
+  /* ACCENT Colors */
+  --lk-color-accent-purple: var(--lk-color-primary-500);
+
+  /* SURFACE Colors */
+  --lk-color-surface-1: var(--lk-color-neutral);
+
+  /* SPACING -- Primordials */
+  --lk-spacing-0px: 0em;
+  --lk-spacing-2px: 0.125em;
+  --lk-spacing-4px: 0.25em;
+  --lk-spacing-8px: 0.5em;
+  --lk-spacing-16px: 1em;
+  --lk-spacing-20px: 1.25em;
+  --lk-spacing-24px: 1.5em;
+  --lk-spacing-32px: 2em;
+  --lk-spacing-40px: 2.5em;
+  --lk-spacing-48px: 3em;
+  --lk-spacing-56px: 3.5em;
+  --lk-spacing-64px: 4em;
+  --lk-spacing-72px: 4.5em;
+  --lk-spacing-80px: 5em;
+}
+
+/* Global selectors */
+* {
+  background-color: none;
+  font-family: inter;
+  margin: 0;
+  padding: 0; /* Asegura que el ancho y alto incluya el padding y border */
+  display: flexbox;
+}
