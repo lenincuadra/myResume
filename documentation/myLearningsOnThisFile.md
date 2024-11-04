@@ -61,6 +61,10 @@
 
 22. Learning flexbox, but it's not the time, I'm back to focus on BEM, I think need to understand how to make css classes in a scalable way, then, I'll be back to structure the UI.
 
+23. Scaling the Design System now, trying to build the first tokens,separating css for the LenK DS and basic, cleaning up a lot of the BEM.
+
+- Adicionalmente, logre alinear items a la derecha, pequenos logros que reflejan el conocimiento de Flex que he aprendido en pocos dias!
+
 ## Tools
 
 1. Git
