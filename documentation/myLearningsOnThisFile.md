@@ -82,7 +82,7 @@
 - [Git Course - Linkedin](https://www.linkedin.com/learning/git-essential-training-19417064/make-use-of-the-gui-of-visual-studio-code?autoSkip=true&resume=false)
 - [How to Host a Website On Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4&ab_channel=KennyYipCoding)
 
-[[https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
+- [https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
 
 - [https://mimo.org/](https://mimo.org/)
 
@@ -103,3 +103,5 @@
 - [BEM 101: How to Make Web Design Organized & Scalable](https://www.youtube.com/watch?v=tha_ynmZRaA)
 
 - [Learn CSS Flexbox in 20 Minutes (Course)](https://www.youtube.com/watch?v=wsTv9y931o8)
+
+- [Learn CSS Displays in 12 Minutes | Grid, Flexbox, Inline Block, Block](https://www.youtube.com/watch?v=21ES7AnqkrA)

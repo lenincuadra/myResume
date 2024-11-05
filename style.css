@@ -3,6 +3,9 @@ body {
   padding: var(--lk-spacing-56px) var(--lk-spacing-56px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
 }
 
+ul {
+  list-style-position: inside;
+}
 li {
   padding: var(--lk-spacing-8px) var(--lk-spacing-0px);
 }
@@ -33,6 +36,7 @@ li {
 }
 
 .card-exp__business-tag {
+  color: var(--lk-color-accent-purple);
   background-color: var(--lk-color-accent-purple);
   border-radius: var(--lk-spacing-4px);
   padding: var(--lk-spacing-2px) var(--lk-spacing-4px);

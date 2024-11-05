@@ -41,4 +41,5 @@
   margin: 0;
   padding: 0; /* Asegura que el ancho y alto incluya el padding y border */
   display: flexbox;
+  box-sizing: border-box;
 }
