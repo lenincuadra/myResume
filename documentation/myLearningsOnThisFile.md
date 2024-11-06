@@ -65,6 +65,10 @@
 
 - Adicionalmente, logre alinear items a la derecha, pequenos logros que reflejan el conocimiento de Flex que he aprendido en pocos dias!
 
+24. Learning about how to name tokens properly, this is kinda hard if you do it wrong from the start, i feel is better to invest to learn about it, feel comfy and start building with a good name convention, that's going to be your life easier on the future.
+
+25. No mucho avance, todavia decidiendo como escribir los tokens en color principalemente que es lo que me tiene mas bloqueado ahora, manana simplemente escribire los colores que tengo pre-definidos como tokens al estilo que mas me parezca que tenga sentido para mi, y pagare la deuda tecnica luego si existe haciendo un refactor, progresar es mas importante que ser perfecto.
+
 ## Tools
 
 1. Git
@@ -105,3 +109,5 @@
 - [Learn CSS Flexbox in 20 Minutes (Course)](https://www.youtube.com/watch?v=wsTv9y931o8)
 
 - [Learn CSS Displays in 12 Minutes | Grid, Flexbox, Inline Block, Block](https://www.youtube.com/watch?v=21ES7AnqkrA)
+
+- [Token Structure](https://canvas.workday.com/styles/tokens/overview/#token-structure)
