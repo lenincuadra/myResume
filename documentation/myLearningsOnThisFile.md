@@ -69,6 +69,10 @@
 
 25. No mucho avance, todavia decidiendo como escribir los tokens en color principalemente que es lo que me tiene mas bloqueado ahora, manana simplemente escribire los colores que tengo pre-definidos como tokens al estilo que mas me parezca que tenga sentido para mi, y pagare la deuda tecnica luego si existe haciendo un refactor, progresar es mas importante que ser perfecto.
 
+26. I think I find someone who knows what's he's talking about, not sure who is this Uncle Bob (Robert Cecil Martin), but that guy makes sense a lot, I think I'm in a good path to find a mentor.
+
+-
+
 ## Tools
 
 1. Git
@@ -80,13 +84,19 @@
 7. ESLint
 8. Mimo
 
-## References files
+## Roadmap - My Developer Learnings Path
+
+- others (past updates will be shown here)
+- Microservices VS Monolite, basicamente Atomizar la tecnologia o hacerlo todo en un solo bloque gigante, tengo muuucho buzzyword de estos 2 desde hace anos, pero viendo el concepto ahora, Apuesto que Microservices es mejor, no importa si ambos tienen "sus mejores casos" apuesto por Microservicios.
+- Tokens Spyke (I already known tokens, but they tend to be kinda confusing and is important to made them properly from the start)
+
+## References
 
 - [Markdowns on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Git Course - Linkedin](https://www.linkedin.com/learning/git-essential-training-19417064/make-use-of-the-gui-of-visual-studio-code?autoSkip=true&resume=false)
 - [How to Host a Website On Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4&ab_channel=KennyYipCoding)
 
-- [https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)]
+- [https://lenincuadra.github.io/myResume/](https://lenincuadra.github.io/myResume/)
 
 - [https://mimo.org/](https://mimo.org/)
 
@@ -111,3 +121,7 @@
 - [Learn CSS Displays in 12 Minutes | Grid, Flexbox, Inline Block, Block](https://www.youtube.com/watch?v=21ES7AnqkrA)
 
 - [Token Structure](https://canvas.workday.com/styles/tokens/overview/#token-structure)
+
+- [The problem with frameworks - Uncle Bob](https://www.youtube.com/watch?v=evmZTh7l6UE)
+
+- [Never use Booleans in a Function](https://www.youtube.com/shorts/jTgBaawLvQ0)
