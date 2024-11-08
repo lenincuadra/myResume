@@ -71,6 +71,12 @@
 
 26. I think I find someone who knows what's he's talking about, not sure who is this Uncle Bob (Robert Cecil Martin), but that guy makes sense a lot, I think I'm in a good path to find a mentor.
 
+27. Today I learnt about Design Patterns, resulta que son tan similares al Diseno que nadie lo podria creer. Son patrones pre-definidos que te hacen entrar en el modelo mental correcto cuando quieres comprender la logica de una funcionabilidad, es decir, son utiles para que no vuelvas a crear la rueda.
+
+- Continuo con nuevos colores en los tokens, definiciones basicas y pagando deuda tecnica de cambio de nombres.
+
+- Resulta que UncleBob fue uno de los que creo el primer Agile Manifesto (no se si existe mas de 1) y esta en contra, dice que Agile no era una estrudctura organizacional, sino que 7 devs se juntaran a hacer cosas de forma organizada.
+
 -
 
 ## Tools
@@ -89,6 +95,7 @@
 - others (past updates will be shown here)
 - Microservices VS Monolite, basicamente Atomizar la tecnologia o hacerlo todo en un solo bloque gigante, tengo muuucho buzzyword de estos 2 desde hace anos, pero viendo el concepto ahora, Apuesto que Microservices es mejor, no importa si ambos tienen "sus mejores casos" apuesto por Microservicios.
 - Tokens Spyke (I already known tokens, but they tend to be kinda confusing and is important to made them properly from the start)
+- Design Patterns, el "no reinventes la rueda" del desarrollo.
 
 ## References
 
@@ -125,3 +132,5 @@
 - [The problem with frameworks - Uncle Bob](https://www.youtube.com/watch?v=evmZTh7l6UE)
 
 - [Never use Booleans in a Function](https://www.youtube.com/shorts/jTgBaawLvQ0)
+
+- [I Interviewed Uncle Bob](https://www.youtube.com/watch?v=UBXXw2JSloo&t=3565s)

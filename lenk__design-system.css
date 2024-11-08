@@ -36,6 +36,18 @@ Usar esta convención facilita identificar los roles y jerarquías de cada token
   --lk-color-green-90: hsl(120, 6%, 3%); /* #060A08 */
   --lk-color-green-100: hsl(150, 9%, 9%); /* #121716 */
 
+  /* BLACK & WHITE colors */
+  --lk-color-neutral-00: hsl(0, 0%, 100%); /* #FFFFFF */
+  --lk-color-neutral-10: hsl(0, 0%, 96%); /* #F5F5F5 */
+  --lk-color-neutral-20: hsl(0, 0%, 80%); /* #CCCCCC */
+  --lk-color-neutral-30: hsl(0, 0%, 67%); /* #A2A2A2 */
+  --lk-color-neutral-40: hsl(0, 0%, 48%); /* #7A7A7A */
+  --lk-color-neutral-50: hsl(0, 0%, 40%); /* #666666 */
+  --lk-color-neutral-60: hsl(0, 0%, 16%); /* #2A2A2A */
+  --lk-color-neutral-70: hsl(36, 50%, 5%); /* #130D04 */
+  --lk-color-neutral-80: hsl(0, 0%, 4%); /* #0E0F0F */
+  --lk-color-neutral-90: hsl(0, 0%, 0%); /* #000000 */
+
   /* SECONDARY Color --- Used to hightlight thinks */
   --lk-core-color-green-500: #2ecc71;
 
