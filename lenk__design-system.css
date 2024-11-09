@@ -12,53 +12,54 @@ Usar esta convención facilita identificar los roles y jerarquías de cada token
 
 :root {
   /* PRIMARY Color --- Used to hightlight thinks */
+  --lk-theforce-purple-1: var (--lk-base-color-purple-10);
 
   /* PURPLE color */
-  --lk-color-purple-05: hsl(270, 100%, 97%);
-  --lk-color-purple-10: hsl(245, 94%, 92%);
-  --lk-color-purple-20: hsl(270, 100%, 87%);
-  --lk-color-purple-30: hsl(270, 100%, 80%);
-  --lk-color-purple-40: hsl(260, 81%, 70%);
-  --lk-color-purple-50: hsl(270, 50%, 53%);
-  --lk-color-purple-60: hsl(270, 54%, 40%);
-  --lk-color-purple-70: hsl(270, 61%, 29%);
-  --lk-color-purple-80: hsl(270, 69%, 18%);
+  --lk-base-color-purple-05: hsl(270, 100%, 97%);
+  --lk-base-color-purple-10: hsl(245, 94%, 92%);
+  --lk-base-color-purple-20: hsl(270, 100%, 87%);
+  --lk-base-color-purple-30: hsl(270, 100%, 80%);
+  --lk-base-color-purple-40: hsl(260, 81%, 70%);
+  --lk-base-color-purple-50: hsl(270, 50%, 53%);
+  --lk-base-color-purple-60: hsl(270, 54%, 40%);
+  --lk-base-color-purple-70: hsl(270, 61%, 29%);
+  --lk-base-color-purple-80: hsl(270, 69%, 18%);
 
   /* GREEN color */
-  --lk-color-green-10: hsl(163, 100%, 94%); /* #ECFFF8 */
-  --lk-color-green-20: hsl(158, 100%, 85%); /* #B5FFE5 */
-  --lk-color-green-30: hsl(158, 100%, 77%); /* #7EFFD2 */
-  --lk-color-green-40: hsl(158, 100%, 69%); /* #47FFBF */
-  --lk-color-green-50: hsl(165, 67%, 52%); /* #2FD69C */
-  --lk-color-green-60: hsl(165, 72%, 39%); /* #1CAD7B */
-  --lk-color-green-70: hsl(165, 78%, 28%); /* #0E855B */
-  --lk-color-green-80: hsl(165, 87%, 19%); /* #045C3D */
-  --lk-color-green-90: hsl(120, 6%, 3%); /* #060A08 */
-  --lk-color-green-100: hsl(150, 9%, 9%); /* #121716 */
+  --lk-base-color-green-10: hsl(163, 100%, 94%); /* #ECFFF8 */
+  --lk-base-color-green-20: hsl(158, 100%, 85%); /* #B5FFE5 */
+  --lk-base-color-green-30: hsl(158, 100%, 77%); /* #7EFFD2 */
+  --lk-base-color-green-40: hsl(158, 100%, 69%); /* #47FFBF */
+  --lk-base-color-green-50: hsl(165, 67%, 52%); /* #2FD69C */
+  --lk-base-color-green-60: hsl(165, 72%, 39%); /* #1CAD7B */
+  --lk-base-color-green-70: hsl(165, 78%, 28%); /* #0E855B */
+  --lk-base-color-green-80: hsl(165, 87%, 19%); /* #045C3D */
+  --lk-base-color-green-90: hsl(120, 6%, 3%); /* #060A08 */
+  --lk-base-color-green-100: hsl(150, 9%, 9%); /* #121716 */
 
   /* BLACK & WHITE colors */
-  --lk-color-neutral-00: hsl(0, 0%, 100%); /* #FFFFFF */
-  --lk-color-neutral-10: hsl(0, 0%, 96%); /* #F5F5F5 */
-  --lk-color-neutral-20: hsl(0, 0%, 80%); /* #CCCCCC */
-  --lk-color-neutral-30: hsl(0, 0%, 67%); /* #A2A2A2 */
-  --lk-color-neutral-40: hsl(0, 0%, 48%); /* #7A7A7A */
-  --lk-color-neutral-50: hsl(0, 0%, 40%); /* #666666 */
-  --lk-color-neutral-60: hsl(0, 0%, 16%); /* #2A2A2A */
-  --lk-color-neutral-70: hsl(36, 50%, 5%); /* #130D04 */
-  --lk-color-neutral-80: hsl(0, 0%, 4%); /* #0E0F0F */
-  --lk-color-neutral-90: hsl(0, 0%, 0%); /* #000000 */
+  --lk-base-color-neutral-00: hsl(0, 0%, 100%); /* #FFFFFF */
+  --lk-base-color-neutral-10: hsl(0, 0%, 96%); /* #F5F5F5 */
+  --lk-base-color-neutral-20: hsl(0, 0%, 80%); /* #CCCCCC */
+  --lk-base-color-neutral-30: hsl(0, 0%, 67%); /* #A2A2A2 */
+  --lk-base-color-neutral-40: hsl(0, 0%, 48%); /* #7A7A7A */
+  --lk-base-color-neutral-50: hsl(0, 0%, 40%); /* #666666 */
+  --lk-base-color-neutral-60: hsl(0, 0%, 16%); /* #2A2A2A */
+  --lk-base-color-neutral-70: hsl(36, 50%, 5%); /* #130D04 */
+  --lk-base-color-neutral-80: hsl(0, 0%, 4%); /* #0E0F0F */
+  --lk-base-color-neutral-90: hsl(0, 0%, 0%); /* #000000 */
 
   /* SECONDARY Color --- Used to hightlight thinks */
-  --lk-core-color-green-500: #2ecc71;
+  --lk-core-base-color-green-500: #2ecc71;
 
   /* NEUTRAL Color --- Used to hightlight thinks */
-  --lk-color-neutral: rgb(250, 250, 250);
+  --lk-base-color-neutral: rgb(250, 250, 250);
 
   /* ACCENT Colors */
-  --lk-color-accent-purple: var(--lk-color-primary-500);
+  --lk-base-color-accent-purple: var(--lk-base-color-primary-500);
 
   /* SURFACE Colors */
-  --lk-color-surface-1: var(--lk-color-neutral);
+  --lk-base-color-surface-1: var(--lk-base-color-neutral);
 
   /* SPACING -- Primordials */
   --lk-spacing-0px: 0em;
