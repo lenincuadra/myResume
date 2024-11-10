@@ -1,28 +1,69 @@
 /* HTML */
 body {
-  padding: var(--lk-spacing-56px) var(--lk-spacing-56px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
+  padding: var(--lk-size-56px) var(--lk-size-56px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
 }
 
 ul {
   list-style-position: inside;
 }
 li {
-  padding: var(--lk-spacing-8px) var(--lk-spacing-0px);
+  padding: var(--lk-size-8px) var(--lk-size-0px);
+}
+
+/* HIGHLEVEL COMPONENT */
+/* TAGS */
+.tag {
+  border-radius: var(--lk-size-4px);
+  padding: var(--lk-size-2px) var(--lk-size-8px);
+  background-color: var(--lk-base-color-neutral-90);
+  color: var(--lk-theforce-onPrimary);
+  font-size: var(--lk-fontsize-12px);
+}
+
+.tag--primary {
+  background-color: var(--lk-theforce-primary-inv);
+  color: var(--lk-theforce-onPrimary-inv);
+}
+.tag--secondary {
+  background-color: var(--lk-theforce-gray);
+  color: var(--lk-theforce-black);
+  font-size: var(--lk-fontsize-8px);
+}
+
+.card-exp__prod-keywords-wrapper {
+  display: flex;
+  gap: var(--lk-size-8px);
+}
+
+.card-exp__summary {
+  font-weight: 600;
+}
+.card-exp__prod-keywords {
+  font-variant-caps: all-small-caps;
+  text-decoration-line: underline;
+  text-underline-offset: var(--lk-size-4px);
+}
+
+/* WRAPPER - JOB EXPERIENCE */
+.job-experience-wrapper {
+  display: flex;
+  flex-wrap: ;
 }
 
 /* CARD - JOB EXPERIENCE */
 .card-exp {
   display: flex;
   flex-direction: column;
-  gap: var(--lk-spacing-4px);
-  padding: var(--lk-spacing-24px) var(--lk-spacing-24px) var(--lk-spacing-24px)
-    var(--lk-spacing-24px);
-  background-color: var(--lk-color-surface-1);
-  border-radius: var(--lk-spacing-8px);
+  gap: var(--lk-size-4px);
+  padding: var(--lk-size-24px) var(--lk-size-24px) var(--lk-size-24px)
+    var(--lk-size-24px);
+  background-color: var(--lk-theforce-surface-container);
+  border-radius: var(--lk-size-8px);
 
+  /* LEFT BORDER */
   /* REMINDER: I have 2 borders because I dont know how to add just the left padding */
   border: 0;
-  border-left: var(--lk-spacing-4px);
+  border-left: var(--lk-size-4px);
   border-style: solid;
 }
 
@@ -32,58 +73,48 @@ li {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--lk-spacing-8px) var(--lk-spacing-8px);
-}
-
-.card-exp__business-tag {
-  color: var(--lk-color-accent-purple);
-  background-color: var(--lk-color-accent-purple);
-  border-radius: var(--lk-spacing-4px);
-  padding: var(--lk-spacing-2px) var(--lk-spacing-4px);
-}
-
-.card-exp__prod-keywords-wrapper {
-  display: flex;
-  gap: var(--lk-spacing-8px);
-}
-
-.card-exp__prod-keywords {
-  font-variant-caps: all-small-caps;
-  text-decoration-line: underline;
-  text-underline-offset: var(--lk-spacing-4px);
+  gap: var(--lk-size-8px) var(--lk-size-8px);
 }
 
 .card-exp__role {
-  /* background-color: var(--lk-color-secondary); */
   flex-grow: 1;
   font-style: normal;
-  font-size: 1.5rem;
-  color: var(--lk-color-accent-purple);
+  font-size: var(--lk-fontsize-24px);
+  color: var(--lk-theforce-primary);
+
   margin: 0;
 }
+/* BUSINESS SIZE & MODEL */
 
-/* COMPANY INFO */
+/* BUSINESS INFO */
+
+.card-exp__industry-and-duration-wrapper {
+  display: flex;
+  align-items: center;
+}
 .card-exp__company-industry {
   flex-grow: 1;
   font-variant-caps: all-small-caps;
 }
+/* BUSINESS INFO — Date */
 
 .card-exp__company-starting-date {
   font-variant-caps: all-small-caps;
 }
 
-.card-exp__company-ending-date {
-  text-underline-offset: var(--lk-spacing-4px);
-  text-decoration: underline;
-}
-
 .card-exp__company-separator {
-  padding: 0 var(--lk-spacing-4px);
+  padding: 0 var(--lk-size-4px);
 }
 
-.card-exp__industry-and-duration-wrapper {
-  display: flex;
-  align-items: center;
+.card-exp__company-ending-date {
+  text-underline-offset: var(--lk-size-4px);
+  text-decoration: underline;
+  font-size: var(--lk-fontsize-18px);
+  font-style: 10px;
+}
+.card-exp__company-ending-date--present {
+  font-size: var(--lk-fontsize-18px);
+  font-weight: 600;
 }
 
 /*  */

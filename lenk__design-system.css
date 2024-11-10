@@ -1,4 +1,4 @@
-/* Tokens */
+/* TOKENS */
 
 /* NAME CONVENCION
 - NAMESPACE (lk): Esto indica que los tokens vienen del design system "LK".
@@ -11,32 +11,37 @@
 Usar esta convención facilita identificar los roles y jerarquías de cada token y ayuda a la escalabilidad y claridad del sistema de diseño. */
 
 :root {
-  /* PRIMARY Color --- Used to hightlight thinks */
-  --lk-theforce-purple-1: var (--lk-base-color-purple-10);
+  /* PRIMARY Colors */
+  /* --- Used to hightlight thinks */
+  --lk-theforce-primary: var(--lk-base-color-purple-50);
+  --lk-theforce-onPrimary: var(--lk-base-color-purple-05);
 
-  /* PURPLE color */
-  --lk-base-color-purple-05: hsl(270, 100%, 97%);
-  --lk-base-color-purple-10: hsl(245, 94%, 92%);
-  --lk-base-color-purple-20: hsl(270, 100%, 87%);
-  --lk-base-color-purple-30: hsl(270, 100%, 80%);
-  --lk-base-color-purple-40: hsl(260, 81%, 70%);
-  --lk-base-color-purple-50: hsl(270, 50%, 53%);
-  --lk-base-color-purple-60: hsl(270, 54%, 40%);
-  --lk-base-color-purple-70: hsl(270, 61%, 29%);
-  --lk-base-color-purple-80: hsl(270, 69%, 18%);
+  /* PRIMARY Container Colors */
+  --lk-theforce-primaryContainer: var(--lk-base-color-purple-50);
+  --lk-theforce-onPrimaryContainer: var(--lk-base-color-purple-90);
 
-  /* GREEN color */
-  --lk-base-color-green-10: hsl(163, 100%, 94%); /* #ECFFF8 */
-  --lk-base-color-green-20: hsl(158, 100%, 85%); /* #B5FFE5 */
-  --lk-base-color-green-30: hsl(158, 100%, 77%); /* #7EFFD2 */
-  --lk-base-color-green-40: hsl(158, 100%, 69%); /* #47FFBF */
-  --lk-base-color-green-50: hsl(165, 67%, 52%); /* #2FD69C */
-  --lk-base-color-green-60: hsl(165, 72%, 39%); /* #1CAD7B */
-  --lk-base-color-green-70: hsl(165, 78%, 28%); /* #0E855B */
-  --lk-base-color-green-80: hsl(165, 87%, 19%); /* #045C3D */
-  --lk-base-color-green-90: hsl(120, 6%, 3%); /* #060A08 */
-  --lk-base-color-green-100: hsl(150, 9%, 9%); /* #121716 */
+  /* PRIMARY INVERTED Colors */
+  --lk-theforce-primary-inv: var(--lk-theforce-onPrimary);
+  --lk-theforce-onPrimary-inv: var(--lk-theforce-primary);
 
+  /* INVERTED PRIMARY Container Colors THIS COLORS HAVE WRONGS VALUES */
+  --lk-theforce-primaryContainer-inv: var(--lk-base-color-purple-90);
+  --lk-theforce-onPrimaryContainer-inv: var(--lk-base-color-purple-50);
+
+  /* SURFACES Colors */
+  --lk-theforce-surface-container-05: var(--lk-base-color-neutral);
+  --lk-theforce-surface-05: var(--lk-base-color-neutral);
+
+  /* NEUTRAL Colors */
+  --lk-theforce-white: var(--lk-base-color-neutral-00);
+  --lk-theforce-gray: var(--lk-base-color-neutral-10);
+  --lk-theforce-black: var(--lk-base-color-neutral-90);
+
+  /* COMPONENTS Colors */
+  /* TEXT Colors */
+  --lk-theforce-paragraph-00: var(--lk-base-color-neutral-90);
+
+  /* BASE COLORS */
   /* BLACK & WHITE colors */
   --lk-base-color-neutral-00: hsl(0, 0%, 100%); /* #FFFFFF */
   --lk-base-color-neutral-10: hsl(0, 0%, 96%); /* #F5F5F5 */
@@ -49,36 +54,63 @@ Usar esta convención facilita identificar los roles y jerarquías de cada token
   --lk-base-color-neutral-80: hsl(0, 0%, 4%); /* #0E0F0F */
   --lk-base-color-neutral-90: hsl(0, 0%, 0%); /* #000000 */
 
-  /* SECONDARY Color --- Used to hightlight thinks */
-  --lk-core-base-color-green-500: #2ecc71;
+  /* PURPLE colors */
+  --lk-base-color-purple-05: hsl(270, 100%, 97%);
+  --lk-base-color-purple-10: hsl(245, 94%, 92%);
+  --lk-base-color-purple-20: hsl(270, 100%, 87%);
+  --lk-base-color-purple-30: hsl(270, 100%, 80%);
+  --lk-base-color-purple-40: hsl(260, 81%, 70%);
+  --lk-base-color-purple-50: hsl(270, 50%, 53%);
+  --lk-base-color-purple-60: hsl(270, 54%, 40%);
+  --lk-base-color-purple-70: hsl(270, 61%, 29%);
+  --lk-base-color-purple-80: hsl(270, 69%, 18%);
 
-  /* NEUTRAL Color --- Used to hightlight thinks */
-  --lk-base-color-neutral: rgb(250, 250, 250);
-
-  /* ACCENT Colors */
-  --lk-base-color-accent-purple: var(--lk-base-color-primary-500);
-
-  /* SURFACE Colors */
-  --lk-base-color-surface-1: var(--lk-base-color-neutral);
+  /* GREEN colors */
+  --lk-base-color-green-10: hsl(163, 100%, 94%); /* #ECFFF8 */
+  --lk-base-color-green-20: hsl(158, 100%, 85%); /* #B5FFE5 */
+  --lk-base-color-green-30: hsl(158, 100%, 77%); /* #7EFFD2 */
+  --lk-base-color-green-40: hsl(158, 100%, 69%); /* #47FFBF */
+  --lk-base-color-green-50: hsl(165, 67%, 52%); /* #2FD69C */
+  --lk-base-color-green-60: hsl(165, 72%, 39%); /* #1CAD7B */
+  --lk-base-color-green-70: hsl(165, 78%, 28%); /* #0E855B */
+  --lk-base-color-green-80: hsl(165, 87%, 19%); /* #045C3D */
+  --lk-base-color-green-90: hsl(120, 6%, 3%); /* #060A08 */
+  --lk-base-color-green-100: hsl(150, 9%, 9%); /* #121716 */
 
   /* SPACING -- Primordials */
-  --lk-spacing-0px: 0em;
-  --lk-spacing-2px: 0.125em;
-  --lk-spacing-4px: 0.25em;
-  --lk-spacing-8px: 0.5em;
-  --lk-spacing-16px: 1em;
-  --lk-spacing-20px: 1.25em;
-  --lk-spacing-24px: 1.5em;
-  --lk-spacing-32px: 2em;
-  --lk-spacing-40px: 2.5em;
-  --lk-spacing-48px: 3em;
-  --lk-spacing-56px: 3.5em;
-  --lk-spacing-64px: 4em;
-  --lk-spacing-72px: 4.5em;
-  --lk-spacing-80px: 5em;
-}
+  --lk-size-0px: 0em;
+  --lk-size-2px: 0.125em;
+  --lk-size-4px: 0.25em;
+  --lk-size-8px: 0.5em;
+  --lk-size-16px: 1em;
+  --lk-size-20px: 1.25em;
+  --lk-size-24px: 1.5em;
+  --lk-size-32px: 2em;
+  --lk-size-40px: 2.5em;
+  --lk-size-48px: 3em;
+  --lk-size-56px: 3.5em;
+  --lk-size-64px: 4em;
+  --lk-size-72px: 4.5em;
+  --lk-size-80px: 5em;
 
-/* Global selectors */
+  /* FONT SIZE */
+  --lk-fontsize-8px: 0.5rem;
+  --lk-fontsize-10px: 0.625rem;
+  --lk-fontsize-12px: 0.75rem;
+  --lk-fontsize-14px: 0.875rem;
+  --lk-fontsize-16px: 1rem;
+  --lk-fontsize-18px: 1.125rem;
+  --lk-fontsize-20px: 1.25rem;
+  --lk-fontsize-24px: 1.5rem;
+  --lk-fontsize-32px: 2rem;
+  --lk-fontsize-40px: 2.5rem;
+  --lk-fontsize-48px: 3rem;
+  --lk-fontsize-56px: 3.5rem;
+  --lk-fontsize-64px: 4rem;
+  --lk-fontsize-72px: 4.5rem;
+  --lk-fontsize-80px: 5rem;
+}
+/* GLOBAL SELECTORS */
 * {
   background-color: none;
   font-family: inter;

@@ -77,6 +77,14 @@
 
 - Resulta que UncleBob fue uno de los que creo el primer Agile Manifesto (no se si existe mas de 1) y esta en contra, dice que Agile no era una estrudctura organizacional, sino que 7 devs se juntaran a hacer cosas de forma organizada.
 
+- Muchos videos de DevSeniors hablando sobre la industria.
+- Ya tengo una base definida de tokens para terminar el proyecto, ademas, aplique BEM en Modifiers lo cual es bastante tricky si tienes un elemento como Tag que esta dentro de tu Block (B de BEM) pero te esperas que vaya a estar en otros lugares del diseno, y ademas, tambien va a tener otras versiones dentro del diseno. En el futuro, seguro agregue mas .css para separar este tipo de componentes por archivo.
+- El Card esta completo, luce bastante bien, falta duplicarlo y agregar el contenido para concluirlo y pasarme a Grid o a Flexbox, porque la verdad cual es la mejor herramienta para aplicar ahora, pero va a ser responsive eso es seguro.
+
+- Aprendizajes que nadie te dice o te recuerda sobre CSS: Siempre es una cascada, si de casualidad duplicaste una propiedad y editas la primera y no ves resultados, es porque tu segunda propiedad identica esta reemplazando la anterio.
+- Los estilos en CSS aparementente son Case Sensitive, no es lo mismo "OnPrimary" que "onPrimary" si escribes mal el nombre no lo toma.. me tomo 15 minutos aprenderlo a las malas.
+- BEM es bastante poderoso, comodo y escalable, hay que considerar bien al momento de escribir una clase para un Bloque para tener el menor esfuerzo por el mayor impacto en los desarrollos.
+
 -
 
 ## Tools
@@ -134,3 +142,5 @@
 - [Never use Booleans in a Function](https://www.youtube.com/shorts/jTgBaawLvQ0)
 
 - [I Interviewed Uncle Bob](https://www.youtube.com/watch?v=UBXXw2JSloo&t=3565s)
+
+-
