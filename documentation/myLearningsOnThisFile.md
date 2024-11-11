@@ -85,7 +85,9 @@
 - Los estilos en CSS aparementente son Case Sensitive, no es lo mismo "OnPrimary" que "onPrimary" si escribes mal el nombre no lo toma.. me tomo 15 minutos aprenderlo a las malas.
 - BEM es bastante poderoso, comodo y escalable, hay que considerar bien al momento de escribir una clase para un Bloque para tener el menor esfuerzo por el mayor impacto en los desarrollos.
 
--
+- Finally, the Card it's looking good! I'm learning about Grid CSS, is pretty complex but looks incredible powerful!
+
+- Dude, Grid is harder than it looks, lol! rolling back to my secure-design due to my incapabilities to land the grid system properly.
 
 ## Tools
 
@@ -143,4 +145,4 @@
 
 - [I Interviewed Uncle Bob](https://www.youtube.com/watch?v=UBXXw2JSloo&t=3565s)
 
--
+- [Learn CSS Grid - A 13 Minute Deep Dive](https://www.youtube.com/watch?v=EiNiSFIPIQE&t)

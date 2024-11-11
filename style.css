@@ -1,6 +1,6 @@
 /* HTML */
 body {
-  padding: var(--lk-size-56px) var(--lk-size-56px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
+  padding: var(--lk-size-40px) var(--lk-size-40px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
 }
 
 ul {
@@ -16,7 +16,7 @@ li {
   border-radius: var(--lk-size-4px);
   padding: var(--lk-size-2px) var(--lk-size-8px);
   background-color: var(--lk-base-color-neutral-90);
-  color: var(--lk-theforce-onPrimary);
+  color: var(--lk-theforce-white);
   font-size: var(--lk-fontsize-12px);
 }
 
@@ -33,6 +33,7 @@ li {
 .card-exp__prod-keywords-wrapper {
   display: flex;
   gap: var(--lk-size-8px);
+  flex-wrap: wrap;
 }
 
 .card-exp__summary {
@@ -44,10 +45,67 @@ li {
   text-underline-offset: var(--lk-size-4px);
 }
 
+/* .grid-item1 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--lk-fontsize-32px);
+  background-color: red;
+  grid-row: 1 / 3;
+  grid-column: 2 / 4;
+}
+.grid-item2 {
+  background-color: red;
+  grid-row: 1 / 3;
+  grid-column: 2 / 4;
+}
+.grid-item3 {
+  background-color: red;
+  grid-row: 1 / 3;
+  grid-column: 2 / 4;
+}
+.grid {
+  background-color: blanchedalmond;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+} */
+
+/* WRAPPER TITLE */
+/* WRAPPER MAIN DESCRIPTION */
+.main-description-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--lk-size-40px) var(--lk-size-24px);
+  gap: var(--lk-size-40px);
+  align-items: top;
+}
+
+.main-description__title {
+  color: var(--lk-theforce-primary);
+}
+.main-description__divider {
+  color: var(--lk-theforce-gray);
+}
+.main-description__year-of-exp {
+  font-size: var(--lk-fontsize-18px);
+  font-weight: 600;
+  font-variant-caps: all-small-caps;
+}
+
+.main-description__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lk-size-24px);
+  padding-top: var(--lk-size-8px);
+}
+.main-description__contact-link {
+  text-decoration: underline;
+}
 /* WRAPPER - JOB EXPERIENCE */
 .job-experience-wrapper {
   display: flex;
   flex-wrap: ;
+  gap: var(--lk-size-40px);
 }
 
 /* CARD - JOB EXPERIENCE */
@@ -73,7 +131,7 @@ li {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--lk-size-8px) var(--lk-size-8px);
+  gap: var(--lk-size-8px);
 }
 
 .card-exp__role {
@@ -95,6 +153,11 @@ li {
 .card-exp__company-industry {
   flex-grow: 1;
   font-variant-caps: all-small-caps;
+}
+
+.card-exp__business-tags {
+  display: flex;
+  gap: var(--lk-size-8px);
 }
 /* BUSINESS INFO — Date */
 
