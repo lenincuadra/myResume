@@ -88,6 +88,7 @@
 - Finally, the Card it's looking good! I'm learning about Grid CSS, is pretty complex but looks incredible powerful!
 
 - Dude, Grid is harder than it looks, lol! rolling back to my secure-design due to my incapabilities to land the grid system properly.
+- Yesterday I saw a video really good video on grids and I feel like I could go ALL HANDS to using it, BUT, that wasn't that easy, today I have to go to a new level and learn Grid with a help of an abstraction of a game, Grids feel something very importart but very hard to master, this looks like the Autolayout for Figma. (Image is attached)
 
 ## Tools
 
@@ -99,6 +100,7 @@
 6. Prettier
 7. ESLint
 8. Mimo
+9. Grid Garden
 
 ## Roadmap - My Developer Learnings Path
 
@@ -146,3 +148,5 @@
 - [I Interviewed Uncle Bob](https://www.youtube.com/watch?v=UBXXw2JSloo&t=3565s)
 
 - [Learn CSS Grid - A 13 Minute Deep Dive](https://www.youtube.com/watch?v=EiNiSFIPIQE&t)
+
+- [Grid Garden - Game](https://codepip.com/games/grid-garden/)
