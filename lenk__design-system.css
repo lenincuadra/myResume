@@ -29,8 +29,8 @@ Usar esta convención facilita identificar los roles y jerarquías de cada token
   --lk-theforce-onPrimaryContainer-inv: var(--lk-base-color-purple-50);
 
   /* SURFACES Colors */
-  --lk-theforce-surface-container-05: var(--lk-base-color-neutral);
-  --lk-theforce-surface-05: var(--lk-base-color-neutral);
+  --lk-theforce-surface-container-05: var(--lk-base-color-neutral-80);
+  --lk-theforce-onSurface-container-05: var(--lk-base-color-neutral-10);
 
   /* NEUTRAL Colors */
   --lk-theforce-white: var(--lk-base-color-neutral-00);
