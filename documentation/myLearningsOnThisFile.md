@@ -108,6 +108,7 @@
 - Microservices VS Monolite, basicamente Atomizar la tecnologia o hacerlo todo en un solo bloque gigante, tengo muuucho buzzyword de estos 2 desde hace anos, pero viendo el concepto ahora, Apuesto que Microservices es mejor, no importa si ambos tienen "sus mejores casos" apuesto por Microservicios.
 - Tokens Spyke (I already known tokens, but they tend to be kinda confusing and is important to made them properly from the start)
 - Design Patterns, el "no reinventes la rueda" del desarrollo.
+- Grids son muy trickies! Lo mas divertido es que pase hora y media ayer resolviendo una distribucion en Grids que termino siendo un comentario mal-escrito en CSS que me rompia todo.
 
 ## References
 
@@ -150,3 +151,5 @@
 - [Learn CSS Grid - A 13 Minute Deep Dive](https://www.youtube.com/watch?v=EiNiSFIPIQE&t)
 
 - [Grid Garden - Game](https://codepip.com/games/grid-garden/)
+
+- [CSS: Advanced Layouts with Grid Manual grid item placement](https://www.linkedin.com/learning/css-advanced-layouts-with-grid/manual-grid-item-placement?autoSkip=true&resume=false)
