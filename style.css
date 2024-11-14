@@ -51,16 +51,6 @@ li {
 
   gap: var(--lk-size-16px);
 }
-/* .grid-item1 {
-  background-color: azure;
-} */
-/* 
-.grid-item2 {
-  background-color: rgb(255, 230, 230);
-}
-.grid-item3 {
-  background-color: rgb(248, 240, 255);
-} */
 
 /* WRAPPER TITLE */
 /* WRAPPER MAIN DESCRIPTION */
@@ -70,6 +60,7 @@ li {
   padding: var(--lk-size-40px) var(--lk-size-24px);
   gap: var(--lk-size-40px);
   align-items: top;
+  align-content: flex-start;
 }
 
 /* .main-description__title-wrapper {
@@ -180,11 +171,19 @@ li {
   background-color: var(--lk-theforce-surface-container-05);
   padding: var(--lk-size-24px);
   color: var(--lk-theforce-onSurface-container-05);
+  background-color: var(--lk-theforce-surface-container-05);
 }
 
 .skill-set__title {
-  font-weight: 700;
+  font-weight: 600;
+  color: var(--lk-base-color-purple-10);
+  /* font-style: italic; */
+  font-variant: all-small-caps;
   /* padding-top: var(--lk-fontsize-24px); */
+}
+
+.skill-set__section {
+  padding: 0 0 var(--lk-size-24px) 0;
 }
 
 /*  */
