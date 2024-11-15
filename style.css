@@ -57,13 +57,15 @@ li {
 .main-description-wrapper {
   display: flex;
   flex-direction: row;
-  padding: var(--lk-size-40px) var(--lk-size-24px);
+  padding: var(--lk-size-0px) var(--lk-size-24px) var(--lk-size-40px)
+    var(--lk-size-24px);
   gap: var(--lk-size-40px);
   align-items: top;
   align-content: flex-start;
 }
 
 /* .main-description__title-wrapper {
+  background-color: red;
 } */
 
 .main-description__title {

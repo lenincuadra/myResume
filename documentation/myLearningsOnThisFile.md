@@ -59,36 +59,41 @@
 
 21. Going on the BEM Route, understanding the basic of it!
 
-22. Learning flexbox, but it's not the time, I'm back to focus on BEM, I think need to understand how to make css classes in a scalable way, then, I'll be back to structure the UI.
+22. date_Oct-26-Thu-2024 Learning flexbox, but it's not the time, I'm back to focus on BEM, I think need to understand how to make css classes in a scalable way, then, I'll be back to structure the UI.
 
-23. Scaling the Design System now, trying to build the first tokens,separating css for the LenK DS and basic, cleaning up a lot of the BEM.
+23. date_Oct-27-Thu-2024 Scaling the Design System now, trying to build the first tokens,separating css for the LenK DS and basic, cleaning up a lot of the BEM.
 
-- Adicionalmente, logre alinear items a la derecha, pequenos logros que reflejan el conocimiento de Flex que he aprendido en pocos dias!
+- date_Oct-28-Thu-2024 Adicionalmente, logre alinear items a la derecha, pequenos logros que reflejan el conocimiento de Flex que he aprendido en pocos dias!
 
-24. Learning about how to name tokens properly, this is kinda hard if you do it wrong from the start, i feel is better to invest to learn about it, feel comfy and start building with a good name convention, that's going to be your life easier on the future.
+24. date_Oct-29-Thu-2024 Learning about how to name tokens properly, this is kinda hard if you do it wrong from the start, i feel is better to invest to learn about it, feel comfy and start building with a good name convention, that's going to be your life easier on the future.
 
-25. No mucho avance, todavia decidiendo como escribir los tokens en color principalemente que es lo que me tiene mas bloqueado ahora, manana simplemente escribire los colores que tengo pre-definidos como tokens al estilo que mas me parezca que tenga sentido para mi, y pagare la deuda tecnica luego si existe haciendo un refactor, progresar es mas importante que ser perfecto.
+25. date_Oct-30-Thu-2024 No mucho avance, todavia decidiendo como escribir los tokens en color principalemente que es lo que me tiene mas bloqueado ahora, manana simplemente escribire los colores que tengo pre-definidos como tokens al estilo que mas me parezca que tenga sentido para mi, y pagare la deuda tecnica luego si existe haciendo un refactor, progresar es mas importante que ser perfecto.
 
-26. I think I find someone who knows what's he's talking about, not sure who is this Uncle Bob (Robert Cecil Martin), but that guy makes sense a lot, I think I'm in a good path to find a mentor.
+26. date_Oct-31-Thu-2024 I think I find someone who knows what's he's talking about, not sure who is this Uncle Bob (Robert Cecil Martin), but that guy makes sense a lot, I think I'm in a good path to find a mentor.
 
-27. Today I learnt about Design Patterns, resulta que son tan similares al Diseno que nadie lo podria creer. Son patrones pre-definidos que te hacen entrar en el modelo mental correcto cuando quieres comprender la logica de una funcionabilidad, es decir, son utiles para que no vuelvas a crear la rueda.
+27. date_Nov-1-Thu-2024 Today I learnt about Design Patterns, resulta que son tan similares al Diseno que nadie lo podria creer. Son patrones pre-definidos que te hacen entrar en el modelo mental correcto cuando quieres comprender la logica de una funcionabilidad, es decir, son utiles para que no vuelvas a crear la rueda.
 
-- Continuo con nuevos colores en los tokens, definiciones basicas y pagando deuda tecnica de cambio de nombres.
+- date_Nov-2-Thu-2024 Continuo con nuevos colores en los tokens, definiciones basicas y pagando deuda tecnica de cambio de nombres.
 
-- Resulta que UncleBob fue uno de los que creo el primer Agile Manifesto (no se si existe mas de 1) y esta en contra, dice que Agile no era una estrudctura organizacional, sino que 7 devs se juntaran a hacer cosas de forma organizada.
+- date_Nov-3-Thu-2024 Resulta que UncleBob fue uno de los que creo el primer Agile Manifesto (no se si existe mas de 1) y esta en contra, dice que Agile no era una estrudctura organizacional, sino que 7 devs se juntaran a hacer cosas de forma organizada.
 
-- Muchos videos de DevSeniors hablando sobre la industria.
-- Ya tengo una base definida de tokens para terminar el proyecto, ademas, aplique BEM en Modifiers lo cual es bastante tricky si tienes un elemento como Tag que esta dentro de tu Block (B de BEM) pero te esperas que vaya a estar en otros lugares del diseno, y ademas, tambien va a tener otras versiones dentro del diseno. En el futuro, seguro agregue mas .css para separar este tipo de componentes por archivo.
-- El Card esta completo, luce bastante bien, falta duplicarlo y agregar el contenido para concluirlo y pasarme a Grid o a Flexbox, porque la verdad cual es la mejor herramienta para aplicar ahora, pero va a ser responsive eso es seguro.
+- date_Nov-4-Thu-2024Muchos videos de DevSeniors hablando sobre la industria.
+- date_Nov-5-Thu-2024Ya tengo una base definida de tokens para terminar el proyecto, ademas, aplique BEM en Modifiers lo cual es bastante tricky si tienes un elemento como Tag que esta dentro de tu Block (B de BEM) pero te esperas que vaya a estar en otros lugares del diseno, y ademas, tambien va a tener otras versiones dentro del diseno. En el futuro, seguro agregue mas .css para separar este tipo de componentes por archivo.
+- date_Nov-6-Thu-2024 El Card esta completo, luce bastante bien, falta duplicarlo y agregar el contenido para concluirlo y pasarme a Grid o a Flexbox, porque la verdad cual es la mejor herramienta para aplicar ahora, pero va a ser responsive eso es seguro.
 
-- Aprendizajes que nadie te dice o te recuerda sobre CSS: Siempre es una cascada, si de casualidad duplicaste una propiedad y editas la primera y no ves resultados, es porque tu segunda propiedad identica esta reemplazando la anterio.
-- Los estilos en CSS aparementente son Case Sensitive, no es lo mismo "OnPrimary" que "onPrimary" si escribes mal el nombre no lo toma.. me tomo 15 minutos aprenderlo a las malas.
-- BEM es bastante poderoso, comodo y escalable, hay que considerar bien al momento de escribir una clase para un Bloque para tener el menor esfuerzo por el mayor impacto en los desarrollos.
+- date_Nov-7-Thu-2024 Aprendizajes que nadie te dice o te recuerda sobre CSS: Siempre es una cascada, si de casualidad duplicaste una propiedad y editas la primera y no ves resultados, es porque tu segunda propiedad identica esta reemplazando la anterio.
+- date_Nov-8-Thu-2024 Los estilos en CSS aparementente son Case Sensitive, no es lo mismo "OnPrimary" que "onPrimary" si escribes mal el nombre no lo toma.. me tomo 15 minutos aprenderlo a las malas.
+- date_Nov-9-Thu-2024 BEM es bastante poderoso, comodo y escalable, hay que considerar bien al momento de escribir una clase para un Bloque para tener el menor esfuerzo por el mayor impacto en los desarrollos.
 
-- Finally, the Card it's looking good! I'm learning about Grid CSS, is pretty complex but looks incredible powerful!
+- date_Nov-10-Thu-2024 Finally, the Card it's looking good! I'm learning about Grid CSS, is pretty complex but looks incredible powerful!
 
-- Dude, Grid is harder than it looks, lol! rolling back to my secure-design due to my incapabilities to land the grid system properly.
-- Yesterday I saw a video really good video on grids and I feel like I could go ALL HANDS to using it, BUT, that wasn't that easy, today I have to go to a new level and learn Grid with a help of an abstraction of a game, Grids feel something very importart but very hard to master, this looks like the Autolayout for Figma. (Image is attached)
+- date_Nov-11-Thu-2024 Dude, Grid is harder than it looks, lol! rolling back to my secure-design due to my incapabilities to land the grid system properly.
+
+- date_Nov-12-Thu-2024 Yesterday I saw a video really good video on grids and I feel like I could go ALL HANDS to using it, BUT, that wasn't that easy, today I have to go to a new level and learn Grid with a help of an abstraction of a game, Grids feel something very importart but very hard to master, this looks like the Autolayout for Figma. (Image is attached)
+
+- date_Nov-13-Thu-2024 No Cada dia es productivo, hoy tuve mucho tiempo y no lo aproveche, pero estoy aca cumpliendo y al menos progrese algo y tome decisiones, no se puede ganar todos los dias.
+
+- date_Nov-13-Thu-2024 agregue las fechas, pero estan mal, en el futuro pienso acomodar esas fechas.
 
 ## Tools
 
