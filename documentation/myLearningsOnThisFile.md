@@ -2,6 +2,7 @@
 
 - I decided to write this in the language I felt like it at that time.
 - In the future, I'll update this to make it consistent, for now, you'll find this in **Spanglish**.
+- date_Nov-15-Fri-2024 Mi primera vez usando una libreria de JS y por supuesto, fracasando en el uso, ni ChatGPT me salva.
 
 ---
 
