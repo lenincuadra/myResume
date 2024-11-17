@@ -3,10 +3,11 @@
 - I decided to write this in the language I felt like it at that time.
 - In the future, I'll update this to make it consistent, for now, you'll find this in **Spanglish**.
 - date_Nov-15-Fri-2024 Mi primera vez usando una libreria de JS y por supuesto, fracasando en el uso, ni ChatGPT me salva.
+- date_Nov-16-Sat-2024 Youtube, ChatGPT, Google ni la justicia divina me pudo ayudar a poder usar la libreria, termine exportando si, pero siempre existio un problema para que renderizara tal-cual como queria, incluso estuve cerca de lograr hacerlo visualmente igual, pero no era Searcheable con CRTL+F, y para mi eso ES CLAVE porque los Recruiters tienen a hacerlo. Ademas de que pesaba muchisimo. Termine descubriendo que con un par de trucos aca y alla (Adjunto imagen) se puede Imprimir / Elegir PDF / Y en opciones Avanzadas se pueden hacer los ajustes necesarios para lograr exportar como quise, tuve ligeros inconvenientes porque parece que 'span' no era Searcheable, asi que los reemplace por DIV, todavia me falta ajustarlo visualmente, pero prefiero hacer ese refactor que seguir luchando con el exportar. Mucho fracaso pero mucho aprendizaje el dia de hoy.
 
 ---
 
-# 📝 My learning on this file
+# 📝 My learnings on this file
 
 ### From 11 to 13/10/24
 
@@ -96,7 +97,8 @@
 
 - date_Nov-13-Thu-2024 agregue las fechas, pero estan mal, en el futuro pienso acomodar esas fechas.
 
-## Tools
+- date_Nov-17-Sun-2024 Para simplemente remover el color :visited de un link, solo tienes que borrarlo del historial, parece sencillo, pero primero debes encontrarlo que tampoco es dificil, pero tuve que borrarlo unas 56 veces, tampoco dificil pero bien aburrido, ademas de que despues de eso, usar ChatGPT, StackOverflow, colorear todos los estados posibles y testear cada una de las posibilidades de un link cuando cambia de color, TODAVIA EXISTIA EL COLOR VISITED en mi link. Por casualidad lo borre tambien de la barra de busqueda y mientras testeaba no note que se elimino sino que parecio que el visited cambio a otro link (que habia visitado de tanto probar cosas) luego borre ese nuevo link de todos lados y seguia comportandose como el link anterior que por fin lo habia resuelto (sin saber como) asi que pense que fue lo unico diferente que hice.. .y era eso, la solucion estaba en no solo borrarlo del Historial, sino tambien de la barra de busqueda! No era tan importante para mi esto, habia conseguido un workaround de usar el mismo color paara visited y active y eso fuera bastado para exportar en PDF, pero sabia que a lo largo del tiempo podria ser una problema si quisiera actualizar los links de los colores.
+- date_Nov-17-Sun-2024 Grids are super-fun! Mis aplicaciones de Grids siempre estuvieron bien, pero habia saturado la estructura de Divs que no permitian el renderizado deseado de la grilla.
 
 1. Git
 2. html
@@ -107,14 +109,24 @@
 7. ESLint
 8. Mimo
 9. Grid Garden
+10. Stackoverflow
 
 ## Roadmap - My Developer Learnings Path
 
 - others (past updates will be shown here)
-- Microservices VS Monolite, basicamente Atomizar la tecnologia o hacerlo todo en un solo bloque gigante, tengo muuucho buzzyword de estos 2 desde hace anos, pero viendo el concepto ahora, Apuesto que Microservices es mejor, no importa si ambos tienen "sus mejores casos" apuesto por Microservicios.
-- Tokens Spyke (I already known tokens, but they tend to be kinda confusing and is important to made them properly from the start)
-- Design Patterns, el "no reinventes la rueda" del desarrollo.
-- Grids son muy trickies! Lo mas divertido es que pase hora y media ayer resolviendo una distribucion en Grids que termino siendo un comentario mal-escrito en CSS que me rompia todo.
+- HTML (foundations)
+- HTML/CSS (foundations)
+- HTML/CSS/JS (foundations)
+- GIT (foundations)
+- HTML / CSS (foundations)
+- Box Model
+- BEM nomenclature
+- Box Model
+- Flexbox
+- Microservices VS Monolite. Basicamente Atomizar la tecnologia o hacerlo todo en un solo bloque gigante, tengo muuucho buzzyword de estos 2 desde hace anos, pero viendo el concepto ahora, Apuesto que Microservices es mejor, no importa si ambos tienen "sus mejores casos" apuesto por Microservicios.
+- Tokens: Spyke (I already known tokens, but they tend to be kinda confusing and is important to made them properly from the start)
+- Design Patterns. El "no reinventes la rueda" del desarrollo.
+- Grids CSS: son muy trickies! Lo mas divertido es que pase hora y media ayer resolviendo una distribucion en Grids que termino siendo un comentario mal-escrito en CSS que me rompia todo.
 
 ## References
 
@@ -159,3 +171,5 @@
 - [Grid Garden - Game](https://codepip.com/games/grid-garden/)
 
 - [CSS: Advanced Layouts with Grid Manual grid item placement](https://www.linkedin.com/learning/css-advanced-layouts-with-grid/manual-grid-item-placement?autoSkip=true&resume=false)
+
+- [Disable color change of link when visited](https://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited)

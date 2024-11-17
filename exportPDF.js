@@ -1,32 +1,32 @@
-function elementToPrint() {
-  const element = document.body; // Captura todo el cuerpo
+function exportPDF() {
+  const element = document.getElementById("downloadcv");
   const options = {
-    scale: window.devicePixelRatio, // Escala para alta calidad
+    margin: 1,
+    filename: "document.pdf",
+    html2canvas: {
+      scale: 2, // Mayor escala mejora el texto y lo hace seleccionable
+      useCORS: true, // Asegura la carga correcta de recursos externos
+    },
+    jsPDF: {
+      unit: "pt",
+      format: [1920, 2000],
+      orientation: "portrait",
+    },
   };
-
-  html2canvas(element, options).then((canvas) => {
-    const imgData = canvas.toDataURL("image/png"); // Convierte a imagen
-    const pdf = new jsPDF("portrait", "px", [canvas.width, canvas.height]);
-
-    pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height); // Ajusta al tamaño exacto
-    pdf.save("page.pdf");
-  });
+  html2pdf().set(options).from(document.getElementById("downloadcv")).save();
 }
-
-// THIS ACTUALLY WORKS
 // function exportPDF() {
-//   const element = document.getElementById("exportPDF");
+//   const element = document.getElementById("downloadcv");
 //   const options = {
-//     margin: 2,
-//     filename: "CV-export-test__.pdf",
-//     image: { type: "webp", quality: 1 },
-//     html2canvas: { scale: window.devicePixelRatio, width: 1440 },
-//     jsPDF: {
-//       unit: "px",
-//       format: [1440, element.scrollWidth],
-//       orientation: "portrait",
-//     },
-//   };
+//     margin: [1, 0, 0, 0],
 
+//     filename: "exported-card.pdf",
+
+//     image: { type: "pdf", quality: 0.98 },
+
+//     html2canvas: { scale: 1 },
+//     jsPDF: { unit: "px", format: [1920, 2000], orientation: "portrait" },
+//     // jsPDF: { unit: "pt", format: "a4", orientation: "portrait" },
+//   };
 //   html2pdf().set(options).from(element).save();
 // }
