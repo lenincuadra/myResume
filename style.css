@@ -1,6 +1,7 @@
 /* HTML */
 body {
-  padding: var(--lk-size-40px) var(--lk-size-40px); /* Preservar para colores de bg/surface mas adelante */ /* background-color: #1f1f1f; */ /* background-color: #515151; */
+  padding: var(--lk-size-40px) var(--lk-size-40px) var(--lk-size-0px)
+    var(--lk-size-40px);
 }
 /* LIST */
 ul {
@@ -55,12 +56,20 @@ a:active {
   font-size: var(--lk-fontsize-8px);
 }
 
+.card-exp__keywords_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 4px;
+  flex-grow: 5;
+}
 .card-exp__prod-keywords-wrapper {
   display: flex;
   gap: var(--lk-size-8px);
   /* flex-wrap: wrap; */
   width: fit-content;
   align-items: stretch;
+  white-space: nowrap;
 }
 .card-exp__prod-built-wrapper {
   display: flex;
@@ -88,8 +97,13 @@ a:active {
 .main-column {
   display: grid;
   grid-template-columns: 3fr 1fr;
-
+  grid-template-rows: auto;
   gap: var(--lk-size-16px);
+}
+
+.nx {
+  grid-column: 1/2;
+  grid-row: 3/6;
 }
 
 /* WRAPPER TITLE */
@@ -97,8 +111,8 @@ a:active {
 .main-description-wrapper {
   display: flex;
   flex-direction: row;
-  padding: var(--lk-size-0px) var(--lk-size-24px) var(--lk-size-40px)
-    var(--lk-size-24px);
+  padding: var(--lk-size-0px) var(--lk-size-24px) var(--lk-size-24px)
+    var(--lk-size-0px);
   gap: var(--lk-size-40px);
   align-items: top;
   align-content: flex-start;
@@ -133,21 +147,36 @@ a:active {
 }
 /* CONTACT WRAPPER - OBJECT#2 */
 
-/* .main-description__contact-wrapper {
-} */
-
-.main-description__contact-header-wrapper {
-  padding-bottom: var(--lk-size-16px);
+.main-description__contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--lk-fontsize-8px);
+  padding-left: var(--lk-fontsize-20px);
+  gap: var(--lk-size-20px);
+  height: auto;
 }
 
-.main-description__portfolio-items-wrapper {
-  display: flex;
+.main-description__contact-header-wrapper {
   gap: var(--lk-size-8px);
-  padding-top: var(--lk-size-8px);
+}
+
+.main-description__contact-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lk-fontsize-px);
+}
+.main-description__portfolio-items-wrapper {
+  padding-top: var(--lk-fontsize-8px);
+  display: flex;
+  flex-direction: row;
+
+  gap: var(--lk-size-8px);
 }
 .main-description__contact-link {
   padding-bottom: var(--lk-size-8px);
   list-style: none;
+  font-size: medium;
+  font-weight: 400;
 }
 
 .main-description__contact-link__inline {
@@ -180,14 +209,13 @@ a:active {
     var(--lk-size-24px);
   background-color: var(--lk-theforce-surface-container);
   border-radius: var(--lk-size-8px);
-  height: fit-content;
 
   /* LEFT BORDER */
   /* REMINDER: I have 2 borders because I dont know how to add just the left padding */
   border: 0;
   border-left: var(--lk-size-4px);
   border-style: solid;
-  height: ;
+  height: max-content;
 }
 
 /* TITLE ROLE */
@@ -250,6 +278,7 @@ a:active {
   display: inline-block;
   padding: var(--lk-size-24px) var(--lk-size-24px) 0 var(--lk-size-24px);
   height: fit-content;
+  width: 100%;
   border-radius: var(--lk-size-8px);
   color: var(--lk-theforce-onSurface-container-05);
   background-color: var(--lk-theforce-surface-container-05);
@@ -282,7 +311,80 @@ a:active {
   font-variant: all-small-caps;
   font-size: medium;
 }
+
+/* FOOTER */
+.NEW-CONTAINER {
+  /* background-color: rgb(250, 250, 250); */
+  /* background-color: var(--lk-theforce-onSurface-container-05); */
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(240, 240, 240, 0.266);
+}
+.push-to-bot {
+  display: flex;
+  flex-grow: 1;
+}
+.CTA {
+  display: flex;
+  width: 100%;
+  /* background-color: var(--lk-theforce-surface-container-05); */
+  /* background-color: black; */
+  /* margin-top: var(--lk-size-24px); */
+  padding: var(--lk-size-24px);
+  align-items: flex-end;
+  border-radius: var(--lk-size-4px) var(--lk-size-4px) var(--lk-size-0px)
+    var(--lk-size-0px);
+}
+
+/* FOOTER CONTACT WRAPPER - OBJECT#6-non-defined */
+
+.CTA__contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--lk-fontsize-8px);
+  gap: var(--lk-size-16px);
+  height: auto;
+  /* background-color: aliceblue; */
+}
+
+.CTA__contact-header-wrapper {
+  /* padding-bottom: var(--lk-size-16px); */
+  display: flex;
+  flex-direction: column;
+  border-left-color: black;
+  padding-left: var(--lk-fontsize-16px);
+  gap: var(--lk-fontsize-16px);
+}
+
+.CTA__title {
+  color: black;
+}
+.CTA__contact-link {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.CTA__portfolio-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lk-size-8px);
+  padding-top: var(--lk-size-8px);
+}
+
+.CTA__soft {
+  color: var(--lk-theforce-onSurface-container-05);
+}
+
+.CTA__hard {
+  color: var(--lk-theforce-onSurface-container-05);
+}
+
 /*  */
+.downloadcv {
+  break-after: avoid-page;
+  page-break-inside: avoid;
+}
 /*  */
 /* Use it as a tool to map the box model */
 .XX {

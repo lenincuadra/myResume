@@ -113,9 +113,14 @@ Usar esta convención facilita identificar los roles y jerarquías de cada token
 /* GLOBAL SELECTORS */
 * {
   background-color: none;
+
   font-family: inter;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif; */
   margin: 0;
   padding: 0; /* Asegura que el ancho y alto incluya el padding y border */
   display: flexbox;
   box-sizing: border-box;
+  height: auto;
 }
