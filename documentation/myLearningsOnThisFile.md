@@ -99,6 +99,7 @@
 
 - date_Nov-17-Sun-2024 Para simplemente remover el color :visited de un link, solo tienes que borrarlo del historial, parece sencillo, pero primero debes encontrarlo que tampoco es dificil, pero tuve que borrarlo unas 56 veces, tampoco dificil pero bien aburrido, ademas de que despues de eso, usar ChatGPT, StackOverflow, colorear todos los estados posibles y testear cada una de las posibilidades de un link cuando cambia de color, TODAVIA EXISTIA EL COLOR VISITED en mi link. Por casualidad lo borre tambien de la barra de busqueda y mientras testeaba no note que se elimino sino que parecio que el visited cambio a otro link (que habia visitado de tanto probar cosas) luego borre ese nuevo link de todos lados y seguia comportandose como el link anterior que por fin lo habia resuelto (sin saber como) asi que pense que fue lo unico diferente que hice.. .y era eso, la solucion estaba en no solo borrarlo del Historial, sino tambien de la barra de busqueda! No era tan importante para mi esto, habia conseguido un workaround de usar el mismo color paara visited y active y eso fuera bastado para exportar en PDF, pero sabia que a lo largo del tiempo podria ser una problema si quisiera actualizar los links de los colores.
 - date_Nov-17-Sun-2024 Grids are super-fun! Mis aplicaciones de Grids siempre estuvieron bien, pero habia saturado la estructura de Divs que no permitian el renderizado deseado de la grilla.
+- date_Nov-18-Mon-2024 - Despues de tanto lidear con la exportacion a PDF, por fin lo logre!!!
 
 1. Git
 2. html
