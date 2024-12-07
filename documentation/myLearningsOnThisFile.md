@@ -102,10 +102,20 @@
 - date_Nov-18-Mon-2024 - Despues de tanto lidear con la exportacion a PDF, por fin lo logre!!!
 - date_Nov-19-Tue-2024 Documenting my Roadmap from start to finish of this product. this is just a wireframe, has not the completed data.
 
-1. Git
+## -- Maintenance Process --
+
+1. date_Dec-07-Sat-2024
+
+- I replaced my contact email for more accurace on his name (Basically changed: "graphic" to "xperience")
+
+---
+
+# Tools I used
+
+1. Git (VScode Terminal)
 2. html
 3. css
-4. Terminal (VsCode)
+4. Vs Code
 5. ChatGPT
 6. Prettier
 7. ESLint
