@@ -158,6 +158,7 @@ a:active {
 
 .main-description__contact-header-wrapper {
   gap: var(--lk-size-8px);
+  font-variant-caps: all-small-caps;
 }
 
 .main-description__contact-items-wrapper {
@@ -177,6 +178,7 @@ a:active {
   list-style: none;
   font-size: medium;
   font-weight: 400;
+  font-variant-caps: normal;
 }
 
 .main-description__contact-link__inline {
